@@ -8,6 +8,7 @@
     "test": "hardhat test test/unit/*.spec.js",
     "test-staging": "hardhat test test/staging/*.spec.js --network sepolia",
     "deploy": "hardhat run scripts/deployment/main.js",
+    "deploy::sepolia": "hardhat run scripts/deployment/main.js --network sepolia",
     "lint": "solhint 'contracts/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write .",
